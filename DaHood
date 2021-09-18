@@ -1,0 +1,427 @@
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UICorner_4 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UnBan = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ChatLogs = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Aim = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Headless = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Korblox = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Main = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Combat = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Animations = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Fun = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Credits = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local combat = Instance.new("Frame")
+local ScrollingFrame_2 = Instance.new("ScrollingFrame")
+local credits = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local discord = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_20 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.CoreGui
+ 
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+main.BorderColor3 = Color3.fromRGB(20, 20, 20)
+main.Position = UDim2.new(0.327613562, 0, 0.305979848, 0)
+main.Size = UDim2.new(0, 412, 0, 253)
+main.Active = true
+main.Draggable = true
+ 
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+TextLabel.BorderColor3 = Color3.fromRGB(32, 32, 32)
+TextLabel.Position = UDim2.new(0.0154777449, 0, 0.0207468867, 0)
+TextLabel.Size = UDim2.new(0, 396, 0, 30)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "G4TO$ - V1.0"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+ 
+UICorner.Parent = TextLabel
+ 
+UICorner_2.Parent = main
+ 
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+close.BorderColor3 = Color3.fromRGB(32, 32, 32)
+close.Position = UDim2.new(0.900485456, 0, 0.0207468886, 0)
+close.Size = UDim2.new(0, 32, 0, 30)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextSize = 31.000
+close.MouseButton1Down:connect(function()
+	main.Visible = false
+end)
+ 
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = close
+ 
+ScrollingFrame.Parent = main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame.Position = UDim2.new(0.303398073, 0, 0.173913047, 0)
+ScrollingFrame.Size = UDim2.new(0, 278, 0, 204)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 152)
+ 
+UICorner_4.Parent = ScrollingFrame
+ 
+Noclip.Name = "Noclip"
+Noclip.Parent = ScrollingFrame
+Noclip.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Noclip.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Noclip.Position = UDim2.new(0.0301324856, 0, 0.0946655273, 0)
+Noclip.Size = UDim2.new(0, 247, 0, 30)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip [K]"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextSize = 14.000
+Noclip.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/AKb8YZz7", true))()
+end)
+ 
+ 
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = Noclip
+ 
+UnBan.Name = "UnBan"
+UnBan.Parent = ScrollingFrame
+UnBan.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+UnBan.BorderColor3 = Color3.fromRGB(39, 39, 39)
+UnBan.Position = UDim2.new(0.0301324856, 0, 0.165680796, 0)
+UnBan.Size = UDim2.new(0, 247, 0, 30)
+UnBan.Font = Enum.Font.SourceSans
+UnBan.Text = "UnBan"
+UnBan.TextColor3 = Color3.fromRGB(255, 255, 255)
+UnBan.TextSize = 14.000
+ 
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = UnBan
+ 
+Fly.Name = "Fly"
+Fly.Parent = ScrollingFrame
+Fly.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Fly.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Fly.Position = UDim2.new(0.0301324856, 0, 0.0219873339, 0)
+Fly.Size = UDim2.new(0, 247, 0, 30)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly [X]"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GBD44PZP", true))()
+end)
+ 
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = Fly
+ 
+ChatLogs.Name = "Chat Logs"
+ChatLogs.Parent = ScrollingFrame
+ChatLogs.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ChatLogs.BorderColor3 = Color3.fromRGB(39, 39, 39)
+ChatLogs.Position = UDim2.new(0.0301324856, 0, 0.238803327, 0)
+ChatLogs.Size = UDim2.new(0, 247, 0, 30)
+ChatLogs.Font = Enum.Font.SourceSans
+ChatLogs.Text = "Chat Logs"
+ChatLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatLogs.TextSize = 14.000
+ 
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = ChatLogs
+ 
+Aim.Name = "Aim"
+Aim.Parent = ScrollingFrame
+Aim.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Aim.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Aim.Position = UDim2.new(0.0301324856, 0, 0.311925858, 0)
+Aim.Size = UDim2.new(0, 247, 0, 30)
+Aim.Font = Enum.Font.SourceSans
+Aim.Text = "AimLock"
+Aim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aim.TextSize = 14.000
+Aim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot", true))()
+end)
+ 
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = Aim
+ 
+Headless.Name = "Headless"
+Headless.Parent = ScrollingFrame
+Headless.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Headless.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Headless.Position = UDim2.new(0.0301324856, 0, 0.383072108, 0)
+Headless.Size = UDim2.new(0, 247, 0, 30)
+Headless.Font = Enum.Font.SourceSans
+Headless.Text = "Headless"
+Headless.TextColor3 = Color3.fromRGB(255, 255, 255)
+Headless.TextSize = 14.000
+Headless.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+		if (v:IsA("Decal")) then
+			v:Destroy()
+		end
+	end
+end)
+ 
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = Headless
+ 
+Korblox.Name = "Korblox"
+Korblox.Parent = ScrollingFrame
+Korblox.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Korblox.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Korblox.Position = UDim2.new(0.0301324874, 0, 0.454218358, 0)
+Korblox.Size = UDim2.new(0, 247, 0, 30)
+Korblox.Font = Enum.Font.SourceSans
+Korblox.Text = "Korblox"
+Korblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+Korblox.TextSize = 14.000
+Korblox.MouseButton1Down:connect(function()
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = "902942093"
+	chr.RightLowerLeg.Transparency = "1"
+	chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.RightFoot.MeshId = "902942089"
+	chr.RightFoot.Transparency = "1"
+end)
+ 
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = Korblox
+ 
+Main.Name = "Main"
+Main.Parent = main
+Main.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Main.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Main.Position = UDim2.new(0.0339805819, 0, 0.21837534, 0)
+Main.Size = UDim2.new(0, 97, 0, 30)
+Main.Font = Enum.Font.SourceSans
+Main.Text = "Main!"
+Main.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main.TextSize = 14.000
+ 
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Main
+ 
+Combat.Name = "Combat"
+Combat.Parent = main
+Combat.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Combat.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Combat.Position = UDim2.new(0.0339805819, 0, 0.364620388, 0)
+Combat.Size = UDim2.new(0, 97, 0, 30)
+Combat.Font = Enum.Font.SourceSans
+Combat.Text = "Combat!"
+Combat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Combat.TextSize = 14.000
+ 
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = Combat
+ 
+Animations.Name = "Animations"
+Animations.Parent = main
+Animations.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Animations.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Animations.Position = UDim2.new(0.0339805819, 0, 0.506912887, 0)
+Animations.Size = UDim2.new(0, 97, 0, 30)
+Animations.Font = Enum.Font.SourceSans
+Animations.Text = "Animations!"
+Animations.TextColor3 = Color3.fromRGB(255, 255, 255)
+Animations.TextSize = 14.000
+ 
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Animations
+ 
+Fun.Name = "Fun"
+Fun.Parent = main
+Fun.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Fun.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Fun.Position = UDim2.new(0.0339805819, 0, 0.653157949, 0)
+Fun.Size = UDim2.new(0, 97, 0, 30)
+Fun.Font = Enum.Font.SourceSans
+Fun.Text = "Fun!"
+Fun.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fun.TextSize = 14.000
+ 
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Fun
+ 
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Credits.BorderColor3 = Color3.fromRGB(39, 39, 39)
+Credits.Position = UDim2.new(0.0339805819, 0, 0.799403012, 0)
+Credits.Size = UDim2.new(0, 97, 0, 30)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits!"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 14.000
+ 
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = Credits
+ 
+TextLabel_2.Parent = main
+TextLabel_2.Active = true
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0, 0, 0.170725644, 0)
+TextLabel_2.Size = UDim2.new(0, 411, 0, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+ 
+combat.Name = "combat"
+combat.Parent = ScreenGui
+combat.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+combat.BorderColor3 = Color3.fromRGB(20, 20, 20)
+combat.Position = UDim2.new(0.448205113, 0, 0.372519076, 0)
+combat.Size = UDim2.new(0, 285, 0, 204)
+combat.Visible = false
+ 
+ScrollingFrame_2.Parent = combat
+ScrollingFrame_2.Active = true
+ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame_2.Position = UDim2.new(0.0260463785, 0, 0, 0)
+ScrollingFrame_2.Size = UDim2.new(0, 277, 0, 204)
+ 
+credits.Name = "credits"
+credits.Parent = ScreenGui
+credits.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+credits.BorderColor3 = Color3.fromRGB(20, 20, 20)
+credits.Position = UDim2.new(0.452204496, 0, 0.380152673, 0)
+credits.Size = UDim2.new(0, 285, 0, 204)
+credits.Visible = false
+ 
+TextLabel_3.Parent = credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_3.Position = UDim2.new(0.168421045, 0, 0.0245098025, 0)
+TextLabel_3.Size = UDim2.new(0, 192, 0, 38)
+TextLabel_3.Font = Enum.Font.Ubuntu
+TextLabel_3.Text = "Creditos A:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 21.000
+ 
+TextLabel_4.Parent = credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_4.BorderColor3 = Color3.fromRGB(20, 20, 20)
+TextLabel_4.Position = UDim2.new(0.161403507, 0, 0.607843161, 0)
+TextLabel_4.Size = UDim2.new(0, 192, 0, 38)
+TextLabel_4.Font = Enum.Font.Ubuntu
+TextLabel_4.Text = "Norm21xD | Its#9429"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 21.000
+ 
+discord.Name = "discord"
+discord.Parent = credits
+discord.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+discord.BorderColor3 = Color3.fromRGB(39, 39, 39)
+discord.Position = UDim2.new(0.136842072, 0, 0.79411757, 0)
+discord.Size = UDim2.new(0, 206, 0, 31)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "Copiar Discord!"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextSize = 14.000
+ 
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = discord
+ 
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = credits
+ 
+Frame.Parent = credits
+Frame.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Frame.BorderColor3 = Color3.fromRGB(32, 32, 32)
+Frame.Position = UDim2.new(0.354385972, 0, 0.215686277, 0)
+Frame.Size = UDim2.new(0, 85, 0, 80)
+ 
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = Frame
+ 
+ImageLabel.Parent = credits
+ImageLabel.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+ImageLabel.BorderColor3 = Color3.fromRGB(32, 32, 32)
+ImageLabel.Position = UDim2.new(0.378947377, 0, 0.254901975, 0)
+ImageLabel.Size = UDim2.new(0, 71, 0, 64)
+ImageLabel.Image = "rbxassetid://7479623057"
+ 
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = ImageLabel
+ 
+-- Scripts:
+ 
+local function QREQFJ_fake_script() -- TextLabel_2.Script 
+	local script = Instance.new('Script', TextLabel_2)
+ 
+	while true do
+		script.Parent.Color = Color3.new(255/255,0/255,0/255)
+		for i = 0,255,10 do
+			wait()
+			script.Parent.Color = Color3.new(255/255,i/255,0/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.Color = Color3.new(i/255,255/255,0/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script.Parent.Color = Color3.new(0/255,255/255,i/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.Color = Color3.new(0/255,i/255,255/255)
+		end
+		for i = 0,255,10 do
+			wait()
+			script.Parent.Color = Color3.new(i/255,0/255,255/255)
+		end
+		for i = 255,0,-10 do
+			wait()
+			script.Parent.Color = Color3.new(255/255,0/255,i/255)
+		end
+	end
+end
+coroutine.wrap(QREQFJ_fake_script)()
+ 
